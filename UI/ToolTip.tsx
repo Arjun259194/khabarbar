@@ -21,7 +21,7 @@ const ToolTip: FC<{
           "pointer-events-none m-2 opacity-0 group-hover:pointer-events-auto group-hover:opacity-100",
           "transition-all duration-200 ease-in-out",
           "absolute z-20 w-max animate-bounce rounded-md py-1 px-2 font-semibold shadow-md",
-          "text-rich-black bg-gray-100 dark:bg-gray-700 dark:text-white",
+          "text-rich-black bg-gray-100 dark:bg-zinc-700 dark:text-white",
           direction === "Up" && " bottom-full ",
           direction === "Down" && " top-full ",
           direction === "Right" && " left-full ",

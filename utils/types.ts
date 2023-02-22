@@ -65,3 +65,18 @@ export type Article = {
 };
 
 export type NullableArticle = Nullable<Article>;
+
+export interface WhetherData {
+  location: {
+    name: string;
+    region: string;
+    country: string;
+  };
+  current: {
+    temp_c: number;
+    temp_f: number;
+    text: string;
+  };
+  wind_kph: number;
+  wind_mph: number;
+}

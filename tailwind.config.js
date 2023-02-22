@@ -7,7 +7,12 @@ module.exports = {
     "./UI/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        labrada: "Labrada",
+        JosefinSans: "Josefin Sans",
+      },
+    },
   },
   darkMode: "class",
   plugins: [],

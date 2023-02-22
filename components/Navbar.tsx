@@ -4,7 +4,7 @@ import { FC } from "react";
 const Navbar: FC = () => {
   return (
     <nav>
-      <ul className="flex [&>li]:capitalize [&>li]:font-semibold [&>li]:mx-2 [&>li:hover]:underline">
+      <ul className="flex [&>li:hover]:underline [&>li]:mx-2 [&>li]:font-semibold [&>li]:capitalize">
         <li>
           <Link href="/">home</Link>
         </li>
